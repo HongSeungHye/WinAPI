@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{ad11f94e-42e3-4514-8151-cb0a5c75066c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{0e9d8397-90d6-4ac0-bd4a-a1d2424b31df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject">
+      <UniqueIdentifier>{d283ce18-8ca7-4514-b5a4-fdc76e551d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.Player">
+      <UniqueIdentifier>{7ae649bc-fdaa-4639-ac65-6cecdd29e3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Bullet">
+      <UniqueIdentifier>{eae40977-6c64-446c-a658-2f2db9ab8f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Monster">
+      <UniqueIdentifier>{b72dab64-5a87-484e-8aed-9a2c48f98a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager">
+      <UniqueIdentifier>{1d344021-fed0-4327-9399-7604d9538e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Sheild">
+      <UniqueIdentifier>{375f18e8-8245-4cd9-a62f-40f7c2310e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.ScrewBullet">
+      <UniqueIdentifier>{2dbdf331-e3b0-4836-9dc7-efd03621c5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.TrackingBullet">
+      <UniqueIdentifier>{54de2ecd-7795-4aec-a805-e276eec211f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Extern.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.GameObject\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameWork-HSH.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>01.GameObject\01.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01.GameObject\02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>02.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>01.GameObject\03.Sheild</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrewBullet.h">
+      <Filter>01.GameObject\04.ScrewBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackingBullet.h">
+      <Filter>01.GameObject\05.TrackingBullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameWork-HSH.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.GameObject\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>01.GameObject\01.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01.GameObject\02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>02.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>01.GameObject\03.Sheild</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrewBullet.cpp">
+      <Filter>01.GameObject\04.ScrewBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackingBullet.cpp">
+      <Filter>01.GameObject\05.TrackingBullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="FrameWork-HSH.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FrameWork-HSH.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+#pragma once
+
+namespace DIRECTION {
+	enum DIR { UP, DOWN, LEFT, RIGHT, END };
+}
+
+namespace OBJECT {
+	enum ID { BULLET,SCREWBULLET,TRACKINGBULLET, MONSTER, BOSS, SHIELD,PLAYER, END };
+}

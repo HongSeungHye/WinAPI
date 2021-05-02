@@ -1,0 +1,5 @@
+﻿  MainApp.cpp
+c:\users\administrator.jusin-20180207n\downloads\framework-hsh 9 (2)\framework-hsh\mainapp.cpp(78): warning C4477: 'swprintf_s' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'unsigned __int64'입니다.
+  c:\users\administrator.jusin-20180207n\downloads\framework-hsh 9 (2)\framework-hsh\mainapp.cpp(78): note: 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  FrameWork-HSH.vcxproj -> C:\Users\Administrator.JUSIN-20180207N\Downloads\FrameWork-HSH 9 (2)\x64\Debug\FrameWork-HSH.exe
+  FrameWork-HSH.vcxproj -> C:\Users\Administrator.JUSIN-20180207N\Downloads\FrameWork-HSH 9 (2)\x64\Debug\FrameWork-HSH.pdb (Full PDB)
